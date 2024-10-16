@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body {
+    margin: auto;
+ /*   background-color: green;  */
+    font-family:Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+ }
+ 
+ /*
+ ------------------
+ Before Header
+ ------------------
+ */
+ .Up {
+     margin-left: 25px;
+     height: 32px;
+     width: vw;
+     display: flex;
+     flex-direction: row;
+     margin-top: 0;
+     position: sticky;
+     background-color: whitesmoke; 
+  /* align-items: center;
+     align-content: center;
+     justify-content: center;
+     */
+ 
+ 
+ }
+ 
+ .Up a {
+     font-size: medium;
+     padding-left: 4px;
+     color: orange;
+     text-decoration: solid;
+ } 
+ 
+ .Up a:hover {
+     text-decoration: underline;
+ }
+ 
+ 
+ .f-row {
+     display: flex;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+ 
+ }
+ 
+ .mid-item {
+     display: flex;
+     padding-left: 40%;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+ /*  background-color: brown;  */
+ 
+ }
+ 
+ /* 
+ .mid-item a:hover {
+     text-decoration-color: blue;
+     display: list-item;
+ }
+ 
+ */
+ 
+ /*
+ ------------------
+  Header
+ ------------------
+ */
+/*
+*{
+    margin-left: 25px;
+    
+}
+*/
+
+.container {
+    width: vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-logo {
+    margin-left: 0;
+    float: left;
+}
+
+/*
+----------
+searchForm@header
+----------
+*/
+
+.search-form {
+/* background-color: green; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.material-symbols-outlined {
+    margin: 2px;
+   /* background-color: green;*/
+}
+
+.btn {
+    text-transform: uppercase;
+    padding: 8px;
+    margin: 5px;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+#search {
+    margin: 12px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+#in-search {
+    width: 25rem;
+    padding: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.001px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+#search-bx {
+    border: none;
+    outline: none;
+
+}
+
+
+/*
+----------
+cart@header
+----------
+*/
+
+.h {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.h:hover {
+    color: orange;
+}
+/*
+----------
+Help@header
+----------
+*/
+
+.Q {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 2rem;
+    cursor: pointer;
+
+
+}
+
+.Q:hover {
+    color: grey;
+/*
+----------
+acc@menu
+----------
+*/
+
+
+#acc {
+    background-color: orange;
+    color: white;
+    padding: 7px 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/*
+.content {
+    background-color: white;
+    width: 14rem;
+    height: 14rem;
+    display: block;
+    box-shadow: 2px 2px 5px;
+    border: 0.1px;
+    
+}
+
+.content a {
+    display: block;
+    margin: 1rem;
+    padding: 5px;
+
+    
+}
+
+.content a:hover {
+    background-color: rgb(224, 217, 217);
+}
+
+*/
+
+
+/*
+----------
+help@menu
+----------
+*/
+
+
+/*
+.my {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+ 
+
+ul li {
+    list-style: none;
+}
+
+
+.material-symbols-outlined a {
+    display: flex;
+    align-items: center;
+    align-content: baseline;
+    justify-items: center;
+
+}
+
+
+ul li a {
+    display: inline;
+    text-align: center;
+    padding-left: 7px;
+
+}
+
+.sidebar {
+    margin-left: 5px;
+    width: 220px;
+    height: vh;
+    background-color: aqua;
+    display: none;
+    direction: column;
+}
+
+
+*/
